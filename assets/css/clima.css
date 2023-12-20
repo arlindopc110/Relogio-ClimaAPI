@@ -1,0 +1,81 @@
+.main {
+    padding: 30px 60px 30px 60px;
+    border-radius: 5px;
+    margin-top: 2vh;
+    background: black;
+    background: rgba(5, 5, 5, .8);
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5)
+}
+
+.legenda {
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 1px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 4vh;
+    padding: 1vh;
+
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 90%;
+
+}
+
+button {
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button i {
+    font-size: 35px;
+    background: white
+}
+
+.content {
+    margin-top: 5vh;
+    justify-content: center;
+    word-break: break-word;
+    color: white;
+
+
+}
+
+.text-content {
+    margin-top: 1vh;
+    line-height: 4vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.text-content h2 {
+    font-size: 5vh;
+    margin-bottom: 0.1vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-content span {
+    font-size: 2vh;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}

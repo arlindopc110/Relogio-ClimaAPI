@@ -1,0 +1,62 @@
+
+@media screen and (max-width: 1407px) {
+    body {
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .bloco {
+        margin: 15px;
+    }
+
+    #place {
+        font-size: 3vh;
+    }
+
+    #degrees {
+        font-size: 1.9vh;
+    }
+
+    #wind {
+        font-size: 1.9vh;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        height: 75vh;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 2vh;
+    }
+
+    .relogio {
+        width: 100%;
+    }
+
+    .relogio div {
+        height: 120px;
+        width: 100%;
+    }
+
+    .relogio span {
+        font-size: 60px;
+    }
+
+    .relogio span.tempo {
+        font-size: 14px;
+    }
+
+    .footer {
+    font-size: 14px;
+    flex-wrap: wrap;
+    }
+}

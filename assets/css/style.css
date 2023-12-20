@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 0;
+    overflow: hidden;
+    background: url(/assets/img/fundo.jpg) repeat-x;
+    animation: moveBackground 30s linear infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 10% 0;
+    }
+
+    to {
+        background-position: 90% 0;
+    }
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 170px;
+    width: 550px;
+    background: rgba(5, 5, 5, .8);
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5)
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.relogio span.tempo {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+
+}
+
+.footer {
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-weight: bold;
+    background: rgba(5, 5, 5, .8);
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5)
+}
+
+footer a {
+    color: lightskyblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: rgb(109, 255, 80);
+}
+
+footer .icone {
+    margin-left: 10px;
+    width: 32px;
+}
