@@ -33,7 +33,7 @@ async function getDataApi() {
   }
 }
 
-function loadData(data) {
+const loadData = (data) => {
   place.innerHTML = `${data.name}, ${data.sys.country}`;
   degrees.innerHTML = `Temperatura: ${Math.floor(data.main.temp)}° C`;
   img.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
